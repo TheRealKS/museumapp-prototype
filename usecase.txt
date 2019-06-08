@@ -1,0 +1,1 @@
+The functional requirements focus on the use cases related to the visitor’s interaction with the application inside the museum. Following the recommendation of the teaching assistant, a top level use case was chosen, rather than a low level one

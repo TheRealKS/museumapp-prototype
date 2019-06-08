@@ -1,0 +1,117 @@
+                    body {
+                        margin: 0;
+                        font-family: 'Poppins', sans-serif;
+                    }
+                    
+                    .header {
+                        width: 100vw;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        padding-bottom: 1vh;
+                        background-color: gray;
+                    }
+                    
+                    h1,
+                    h2 {
+                        margin-top: 3vh;
+                    }
+                    
+                    .buttoncontainer {
+                        margin-top: 3vh;
+                        width: 100vw;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                    }
+                    
+                    .footer {
+                        width: 100vw;
+                        display: flex;
+                        justify-content: center;
+                        position: fixed;
+                        bottom: 0;
+                        padding-top: 2vh;
+                        background-color: gray;
+                    }
+                    
+                    .button {
+                        width: 26%;
+                        font-size: 1.4rem;
+                        padding: 0.2rem;
+                        border: 1px solid black;
+                        margin-bottom: 2vh;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                    
+                    .button:hover {
+                        background-color: lightslategray;
+                    }
+                    
+                    .button:active {
+                        background-color: darkgray;
+                    }
+                    
+                    .search_bar {
+                        width: 100vw;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    
+                    .searchbar {
+                        width: 80%;
+                        border: 1px solid black;
+                        font-size: 1.5em;
+                        padding: 0.3rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                    
+                    .search_results {
+                        width: 100vw;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 3vh;
+                    }
+                    
+                    .search_result {
+                        width: 25%;
+                        height: 10vh;
+                        display: flex;
+                        margin-right: 2vw;
+                        border: 1px solid black;
+                        cursor: pointer;
+                    }
+                    
+                    .search_result:hover {
+                        border: 2px solid black;
+                    }
+                    
+                    .artwork_thumbnail {
+                        width: 30%;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: 50% 50%;
+                        margin-right: 1vw;
+                    }
+                    
+                    .zelfportret {
+                        background-image: url(../images/zelf.jpg);
+                    }
+                    
+                    .pauw {
+                        background-image: url(../images/pauw.jpg);
+                    }
+                    
+                    .artwork_details_search {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                    }
+                    
+                    #head {
+                        display: none;
+                    }
