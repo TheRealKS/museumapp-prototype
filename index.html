@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Museum app</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <script src="script/fetcher.js"></script>
+    <script src="script/hashupdate.js"></script>
+    <script src="script/tour.js"></script>
+    <script src="script/onload.js"></script>
+
+
+    <!--<script src="script/script.min.js"></script> -->
+
+</head>
+
+<body>
+    <div id="content">
+        <div class="header">
+            <h1>Welcome to the Museum!</h1>
+            <h2>What would you like to do?</h2>
+        </div>
+        <div class="buttoncontainer">
+            <div class="button clickable" href="#all">All artworks</div>
+            <div class="button clickable" href="#search">Search artworks</div>
+            <div class="button clickable" href="#search_history">Previously searched artworks</div>
+            <div class="button clickable" href="#choose_route">Follow a route</div>
+            <div class="button clickable" href="#nearby">Display nearby artworks</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div id="prevbttn" class="tournav button clickable" href="tour_prev">Previous</div>
+        <div id="backbttn" class="back button clickable" href="#back">Back</div>
+        <div id="nextbttn" class="tournav button clickable" href="tour_next">Next</div>
+    </div>
+</body>
+
+</html>
