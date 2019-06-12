@@ -1,7 +1,8 @@
 var fragments = new Map<String, HTMLElement>();
+var contentloaded;
 
 function fetchFragmentList() {
-    fetch("fragments/fragment.json")
+    fetch("fragments/aa_fragment.json")
     .then(res => {
         if (res.ok) return res.json();
     })
@@ -22,6 +23,8 @@ function fetchHTML(json : Array<String>) {
             var key = d.getElementById("head").innerHTML.trim();
             fragments.set(key, d.body);
         }
+
+        contentloaded = true;
     });
 }
 

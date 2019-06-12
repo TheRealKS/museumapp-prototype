@@ -1,6 +1,7 @@
                     body {
                         margin: 0;
                         font-family: 'Poppins', sans-serif;
+                        overflow: hidden;
                     }
                     
                     .header {
@@ -42,7 +43,17 @@
                         border: 1px solid black;
                         margin-bottom: 2vh;
                         text-align: center;
+                        margin-right: 2vh;
+                        margin-left: 2vh;
                         cursor: pointer;
+                    }
+
+                    #backvalue {
+                        display: none;
+                    }
+
+                    .tournav {
+                        display: none;
                     }
                     
                     .button:hover {
@@ -112,6 +123,51 @@
                         flex-direction: column;
                     }
                     
+                    .info_container {
+                        height: 100%;
+                        width: 100vw;
+                        display: flex;
+                    }
+                    
+                    .artwork {
+                        height: 100%;
+                        width: 55%;
+                    }
+                    
+                    .info_container_txt {
+                        height: 100%;
+                        width: 45%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    
+                    .art_description {
+                        text-align: center;
+                        padding-right: 1vh;
+                        padding-left: 1vh;
+                    }
+
+                    .container {
+                        width: 100vw;
+                        height: 90vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .routes_picker {
+                        width: 100vw;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    
                     #head {
                         display: none;
+                    }
+
+                    .bottom {
+                        margin-top: 15vh;
                     }

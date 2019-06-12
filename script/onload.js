@@ -6,6 +6,8 @@ window.onload = function() {
 
     content = document.getElementById("content");
     back = document.getElementById("backbttn");
+    prevbttn = document.getElementById("prevbttn");
+    nextbttn = document.getElementById("nextbttn")
 
     fetchFragmentList();
 };
@@ -15,7 +17,15 @@ function bindButton() {
     for (var i = 0; i < buttons.length; i++) {
         var b = buttons[i];
         b.addEventListener("click", function(event) {
-            location.hash = event.target.getAttribute("href");
+            if (!contentloaded) return;
+            if (event.currentTarget.hasAttribute("tour")) {
+                currenttour = event.currentTarget.getAttribute("tour");
+            }
+            if (event.currentTarget.classList.contains("back") && prev) {
+                location.hash = prev;
+                return;
+            }
+            location.hash = event.currentTarget.getAttribute("href");
         });
     }
 }
