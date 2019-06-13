@@ -86,16 +86,18 @@
                         width: 100vw;
                         display: flex;
                         justify-content: center;
+                        flex-flow: row wrap;
                         margin-top: 3vh;
                     }
                     
                     .search_result {
-                        width: 25%;
-                        height: 10vh;
+                        width: 30%;
+                        height: 15vh;
                         display: flex;
                         margin-right: 2vw;
                         border: 1px solid black;
                         cursor: pointer;
+                        margin-top: 2vh;
                     }
                     
                     .search_result:hover {
@@ -116,6 +118,22 @@
                     
                     .pauw {
                         background-image: url(../images/pauw.jpg);
+                    }
+
+                    .haarlem {
+                        background-image: url(../images/haarlem.jpg);
+                    }
+
+                    .korenveld {
+                        background-image: url(../images/maaier.png);
+                    }
+
+                    .x {
+                        background-image: url(../images/x.jpg);
+                    }
+
+                    .leg {
+                        background-image: url(../images/leg.jpg);
                     }
                     
                     .artwork_details_search {
