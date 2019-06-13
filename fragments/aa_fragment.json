@@ -5,6 +5,10 @@
     "search_history.html",
     "view_zelf.html",
     "view_pauw.html",
+    "view_gober_untitled.html",
+    "view_x.html",
+    "view_haarlem.html",
+    "view_korenveld.html",
     "search_scan.html",
     "choose_tour.html",
     "tour_modern.html",
@@ -12,5 +16,6 @@
     "tour_temp.html",
     "tour.html",
     "tour_ended.html",
-    "nearby.html"
+    "nearby.html",
+    "nearby_next.html"
 ]

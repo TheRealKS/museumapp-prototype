@@ -4,9 +4,12 @@ var currentindex = -1;
 var currenttour_sequence;
 var tour_modern = [
     "view_gober_untitled",
-    "view_photorama"
+    "view_x"
 ];
-var tour_classic = [];
+var tour_classic = [
+    "view_korenveld",
+    "view_haarlem"
+];
 var tour_temp = [
     "view_pauw",
     "view_zelf"

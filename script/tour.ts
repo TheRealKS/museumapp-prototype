@@ -4,10 +4,11 @@ var currentindex = -1
 var currenttour_sequence : Array<string>;
 var tour_modern = [
     "view_gober_untitled",
-    "view_photorama"
+    "view_x"
 ];
 var tour_classic = [
-
+    "view_korenveld",
+    "view_haarlem"
 ];
 var tour_temp = [
     "view_pauw",
